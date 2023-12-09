@@ -20,12 +20,7 @@ app.use(
 
 app.use(cookieParser());
 
-app.use(
-  cors({
-    credentials: true,
-    origin: "*",
-  })
-);
+app.use(cors());
 
 app.get("/", (req, res, next) => {
   res.send("Working");
