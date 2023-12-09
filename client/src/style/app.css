@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  .sec_1 {
+    width: 20rem;
+    height: 100vh;
+    background: gainsboro;
+
+    > div {
+      margin: 3rem 0.5rem;
+      > a {
+        margin: 0.2rem;
+        padding: 0.5rem 5rem;
+        color: black;
+        border-radius: 8px;
+        text-decoration: none;
+        background: #a19e9e;
+      }
+      > input {
+        margin-top: 1rem;
+        padding: 0.5rem 4rem;
+      }
+      > div {
+        margin-top: 1rem;
+      }
+    }
+    button {
+      padding: 0.5rem 4rem;
+    }
+    p {
+      text-align: center;
+      margin: 3rem;
+      background: rgb(134, 129, 129);
+      padding: 0.5rem 4rem;
+    }
+  }
+
+  .sec_2 {
+    width: 100%;
+    height: 100vh;
+
+    text-align: center;
+    > h1 {
+      margin: 2rem;
+      font-size: 3rem;
+    }
+
+    > div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      div {
+        width: 40rem;
+        justify-content: space-between;
+        display: flex;
+        padding: 1rem;
+        border-radius: 5px;
+        margin: 1rem;
+        border: 2px solid rgb(219, 212, 212);
+
+        > a {
+          color: black;
+          border-radius: 8px;
+          text-decoration: none;
+        }
+      }
+    }
+    > button {
+      margin: 1rem;
+    }
+  }
+}
+
+.addtask {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+  > h1 {
+    font-size: 3rem;
+    margin: 2rem;
+  }
+  > form {
+    > div {
+      margin: 1.5rem;
+      input {
+        width: 30rem;
+        height: 4rem;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        text-align: center;
+        border: 1px solid #a19e9e;
+      }
+      textarea {
+        width: 40rem;
+        height: 10rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 1rem;
+        border: 1px solid #a19e9e;
+      }
+    }
+    > button {
+      padding: 0.5rem 4rem;
+    }
+  }
+}
+
+.taskd {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+  > h1 {
+    font-size: 3rem;
+    margin: 2rem;
+  }
+  > div {
+    > article {
+      padding: 5rem;
+      font-size: 1rem;
+      height: 10rem;
+    }
+  }
+
+  > a {
+    margin: 1rem;
+    padding: 0.7rem 4rem;
+    text-decoration: none;
+    border: 2px solid red;
+  }
+  > span {
+    padding: 0.7rem 4rem;
+    border: 2px solid red;
+  }
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  div {
+    > form {
+      > div {
+        margin-top: 1rem;
+        padding: 0.5 4rem;
+        > input {
+          padding: 0.5rem 4rem;
+        }
+        svg {
+          transform: translate(-2rem, 0);
+        }
+      }
+      button {
+        margin-top: 1rem;
+        width: 4rem;
+        height: 2rem;
+        padding: 0.5 4rem;
+      }
+    }
+  }
+}
