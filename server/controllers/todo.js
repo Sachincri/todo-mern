@@ -8,7 +8,7 @@ export const createTask = catchAsyncErrors(async (req, res, next) => {
   if (!title) {
     return next(new ErrorHandler("Please enter title ", 400));
   }
-  const user = req.user._id;
+  const user = req.user._id; 
 
   const option = { title, description, user };
 
